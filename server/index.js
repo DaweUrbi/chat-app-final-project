@@ -13,7 +13,7 @@ require("dotenv").config();
 
 app.use(
   cors({
-    origin: "https://jccifuentes21.github.io",
+    origin: "https://daweurbi.github.io",
     credentials: true,
     methods: ["GET", "POST", "DELETE"],
   })
@@ -37,7 +37,7 @@ app.use(express.json());
 
 app.use(function(req, res, next) {
   res.header('Access-Control-Allow-Credentials', true);
-  res.header('Access-Control-Allow-Origin', "https://jccifuentes21.github.io");
+  res.header('Access-Control-Allow-Origin', "https://daweurbi.github.io");
   res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,UPDATE,OPTIONS');
   res.header('Access-Control-Allow-Headers', 'X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept');
   next();

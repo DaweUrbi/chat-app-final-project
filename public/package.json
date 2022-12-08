@@ -1,9 +1,9 @@
 {
   "name": "chat-app",
   "version": "0.1.0",
-  "homepage": "https://jccifuentes21.github.io/chat-app-frontend/",
+  "homepage": "https://daweurbi.github.io/chat-app-final-project-frontend/",
   "private": true,
-  "proxy": "https://chat-app-final-project.herokuapp.com",
+  "proxy": "https://chat-app-ciccc.herokuapp.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
